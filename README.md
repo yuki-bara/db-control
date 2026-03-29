@@ -1,3 +1,5 @@
+<center>
+
 # **DBC**
 
 <p align="center">
@@ -7,8 +9,6 @@
 </p>
 
 **DBC** (**D**ata**B**ase**C**ontrol) This Python module is used for controlling SQL.
-
-
 
 # DEVELOP
 
@@ -23,3 +23,5 @@ Test results
 | Cross-version compatibility | None |
 
 We do not recommend using this module at this time.
+
+</center>
