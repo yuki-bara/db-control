@@ -1,9 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-src/databashcontrol.egg-info/PKG-INFO
-src/databashcontrol.egg-info/SOURCES.txt
-src/databashcontrol.egg-info/dependency_links.txt
-src/databashcontrol.egg-info/top_level.txt
-src/dbc/__init__.py
-src/dbc/core.py
