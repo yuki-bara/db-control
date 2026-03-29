@@ -13,7 +13,7 @@ Test results
 
 | TEST | status |
 |-|-|
-| Build | [![build](https://github.com/yuki-bara/db-control/actions/workflows/build.yml/badge.svg)](https://github.com/yuki-bara/db-control/actions/workflows/build.yml) |
+| Build | [![BUILD](https://github.com/yuki-bara/db-control/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/yuki-bara/db-control/actions/workflows/build.yml) |
 | Creating a database. | None |
 | Cross-version compatibility | None |
 
