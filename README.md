@@ -1,16 +1,8 @@
 # **DBC**
 
-<p align="center">
-  <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/Python-3.14.3%2B-3776AB?logo=Python&logoColor=white" alt="Python">
-  </a>
-</p>
-
-<center>
+[![python](https://img.shields.io/badge/Python-3.14.3%2B-3776AB?logo=Python&logoColor=white)](https://www.python.org/)
 
 **DBC** (**D**ata**B**ase**C**ontrol) This Python module is used for controlling SQL.
-
-</center>
 
 # DEVELOP
 
