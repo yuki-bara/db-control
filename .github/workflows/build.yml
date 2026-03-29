@@ -30,7 +30,7 @@ jobs:
       - name: build
         run: pip install . --break-system-packages
       - name: Upload Package
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: python-package
           path: dist/*.whl
