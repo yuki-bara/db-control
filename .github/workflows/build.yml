@@ -28,7 +28,9 @@ jobs:
           cache: 'pip'
           cache-dependency-path: '**/pyproject.toml'
       - name: build
-        run: pip install . --break-system-packages
+        run: |
+            pip install . --break-system-packages
+            python3 -m build
       - name: Upload Package
         uses: actions/upload-artifact@v6
         with:
