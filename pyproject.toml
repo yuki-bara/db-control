@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "databashcontrol"
+version = "2026.3.1.dev1"
+description = "For SQL control."
+authors = [{name = "Makkhawan Sardlah", email = "yukibara30@gmail.com"}]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: BSD Zero Clause License",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yuki-bara/db-control"
