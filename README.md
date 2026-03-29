@@ -14,7 +14,7 @@ Test results
 | TEST | status |
 |-|-|
 | Build | [![BUILD](https://github.com/yuki-bara/db-control/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/yuki-bara/db-control/actions/workflows/build.yml) |
-| Creating a database. | None |
+| Creating a database. | [![BUILD](https://github.com/yuki-bara/db-control/actions/workflows/user.yml/badge.svg?branch=main)](https://github.com/yuki-bara/db-control/actions/workflows/user.yml) |
 | Cross-version compatibility | None |
 
 We do not recommend using this module at this time.
