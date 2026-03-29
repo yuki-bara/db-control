@@ -4,6 +4,7 @@
 name: "BUILD"
 
 on:
+  workflow_dispatch:
   push: 
     paths:
       - src/**
@@ -28,3 +29,8 @@ jobs:
           cache-dependency-path: '**/pyproject.toml'
       - name: build
         run: pip install . --break-system-packages
+      - name: Upload Package
+        uses: actions/upload-artifact@v4
+        with:
+          name: python-package
+          path: dist/*.whl

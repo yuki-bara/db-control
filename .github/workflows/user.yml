@@ -1,0 +1,31 @@
+# SPDX-License-Identifier: 0BSD
+# Author: Makkhawan Sardlah
+
+name: "Create a database."
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["BUILD"]
+    types:
+      - completed
+
+permissions:
+  contents: read
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  USE:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Package
+        uses: actions/download-artifact@v4
+        with:
+          name: python-package
+          path: ./dist
+      - name: Install and Test
+        run: |
+          pip install dist/*.whl --break-system-packages
+          python tests/cdb.py
