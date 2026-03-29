@@ -30,7 +30,6 @@ jobs:
       - name: Download Package
         uses: actions/download-artifact@v6
         with:
-          workflows: "BUILD"
           run-id: ${{ github.event.workflow_run.id }}
           name: python-package
           github-token: ${{ secrets.GITHUB_TOKEN }}
