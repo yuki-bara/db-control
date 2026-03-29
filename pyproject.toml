@@ -17,3 +17,7 @@ classifiers = [
 
 [project.urls]
 "Homepage" = "https://github.com/yuki-bara/db-control"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["tests*"]
