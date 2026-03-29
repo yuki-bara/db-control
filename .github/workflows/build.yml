@@ -10,14 +10,20 @@ on:
       - pyproject.toml
       - .github/workflows/**
 
+permissions:
+  contents: read
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   BUILD:
     runs-on: ubuntu-latest
     steps:
-      - name: setup python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.14.3'
           cache: 'pip'
+      - uses: actions/checkout@v4
       - name: build
         run: pip install -e . --break-system-packages
