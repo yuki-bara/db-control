@@ -10,6 +10,9 @@ class sqlite():
         return self
     def __init__(self, path):
         self.path = path
+    def sql(self, sql):
+        self.cursor.execute(sql)
+        self.conn.commit()
     def create_table(self, name, data):
         pull_data = ""
         m = 0

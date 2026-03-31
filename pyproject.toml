@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "databashcontrol"
-version = "2026.3.1.dev1"
+version = "2026.3.2b"
 description = "For SQL control."
 authors = [{name = "Makkhawan Sardlah", email = "yukibara30@gmail.com"}]
 requires-python = ">=3.10"
